@@ -62,7 +62,7 @@ weather_details = [('location', 'Location:'),
 xml_filename = get_xml(SLCfeed)
 weather_dataset, current_conditions = parse_xml(xml_filename, weather_details)
 art = get_ascii_art(current_conditions)
-# art = get_ascii_art('sun')
+# art = get_ascii_art('snow')
 
 present_weather(weather_dataset, art)
 
